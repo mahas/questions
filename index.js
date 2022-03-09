@@ -42,14 +42,16 @@ function selectRandomQuestion() {
           title: "Haribol! Amazing",
           text:
             "Score: " + right_questions + "/" + (asked_questions ),
-          icon: "success"
+          icon: "success",
+          confirmButtonText: 'New Game',
         });}
         else {
             swal.fire({
                 title: "Jiv Jago, sorry",
                 text:
                   "Score: " + right_questions + "/" + (asked_questions ),
-                icon: "error"
+                icon: "error",
+                confirmButtonText: 'New Game'
               }
         );}
       }
@@ -130,7 +132,7 @@ function push_btn(i) {
   setTimeout(() => {
     restart();
     disable_buttons = false;
-  }, 3000);
+  }, 2000);
 }
 
 // let p = prompt("number")
