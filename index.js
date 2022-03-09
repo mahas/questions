@@ -133,7 +133,7 @@ function push_btn(i) {
   }, 3000);
 }
 
-// let p = prompt("numero")
+// let p = prompt("number")
 
 function restart() {
   for (const btn of corresponding_btn) {
